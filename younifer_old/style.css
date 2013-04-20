@@ -1,0 +1,12 @@
+body{
+font-size: 16px;
+background-color: #F6F6F6;
+font-family: Helvetica, Arial, sans-serif
+}
+
+body, p, u, ol {
+line-height: 1.8em;
+font-weight: normal;
+font-style: normal;
+font-size: 16px;
+}

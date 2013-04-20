@@ -1,0 +1,15 @@
+<div class="grid-25">
+	<h1> Write yo email</h1>
+	<form action='/send_email' method="post">
+		<div>
+			<input type="email" name="to" placeholder="Send to (email address)">
+		</div>
+		<div>
+			<input type="text" name="subject" placeholder="Subject">
+		</div>
+		<div>
+			<%= text_area_tag(:body, "", :placeholder => "Enter yo message") %>
+		</div>
+		<%= submit_tag "Send" %>
+	</form>
+</div>
